@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.sourcelink.json
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\bin\Debug\net8.0\TestApi.NetCore.deps.json
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\bin\Debug\net8.0\TestApi.NetCore.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\bin\Debug\net8.0\TestApi.NetCore.pdb
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\bin\Debug\net8.0\TestApi.EF.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\bin\Debug\net8.0\TestApi.EF.pdb
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi..4B08F378.Up2Date
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\refint\TestApi.NetCore.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\TestApi.NetCore.pdb
+C:\Users\Administrator\source\repos\TestApi\TestApi.NetCore\obj\Debug\net8.0\ref\TestApi.NetCore.dll

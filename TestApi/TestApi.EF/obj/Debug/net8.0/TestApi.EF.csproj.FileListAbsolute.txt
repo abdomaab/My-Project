@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\bin\Debug\net8.0\TestApi.EF.deps.json
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\bin\Debug\net8.0\TestApi.EF.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\bin\Debug\net8.0\TestApi.EF.pdb
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.sourcelink.json
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\refint\TestApi.EF.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.pdb
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\ref\TestApi.EF.dll
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\bin\Debug\net8.0\TestApi.EF.runtimeconfig.json
+C:\Users\Administrator\source\repos\TestApi\TestApi.EF\obj\Debug\net8.0\TestApi.EF.genruntimeconfig.cache
