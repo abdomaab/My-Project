@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TestApi.EF.Models;
 using TestApi.NetCore.Dto;
@@ -10,43 +11,50 @@ namespace TestApi.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly IBaserepository<Book> _bookRepository;
+        private readonly IUnityOfWork _unityOfWork;
 
-        public BookController(IBaserepository<Book> bookRepository)
+        public BookController(IUnityOfWork unityOfWork)
         {
-            _bookRepository = bookRepository;
+            _unityOfWork = unityOfWork;
         }
 
         [HttpGet("{id}")]
-
+   
         public IActionResult GetById(int id)
         {
-            return Ok(_bookRepository.GetById(id));
+            return Ok(_unityOfWork.Books.GetById(id));
         }
 
         [HttpPost("Add")]
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Add(BookDto book)
         {
-            return Ok(_bookRepository.AddOne(new Book {Name = book.Name = book.Name, Title = book.Title, Description = book.Description, Author = book.Author }));
+            var Book = _unityOfWork.Books.AddOne(new Book { Name = book.Name = book.Name, Title = book.Title, Description = book.Description, Author = book.Author });
+            _unityOfWork.Complete();
+            return Ok(Book);
         }
 
         [HttpPut("Update{id}")]
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Update(int id,BookDto book)
         {
-            var books = _bookRepository.GetById(id);
+            var books = _unityOfWork.Books.GetById(id);
             if (id == null)
                 return BadRequest($"no id was found with your id:{id}");
-            return Ok(_bookRepository.Update(id, new Book {Name = book.Name =book.Name, Title = book.Title, Description = book.Description ,Author= book.Author }));
+            var Book = _unityOfWork.Books.Update(id, new Book { Name = book.Name = book.Name, Title = book.Title, Description = book.Description, Author = book.Author });
+            _unityOfWork.Complete();
+            return Ok(Book);
         }
         [HttpDelete("Delete{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id, BookDto book)
         {
-            var books = _bookRepository.GetById(id);
+            var books = _unityOfWork.Books.GetById(id);
             if (id == null)
                 return BadRequest($"no id was found with your id:{id}");
-            return Ok(_bookRepository.Delete(books));
+            var Book = _unityOfWork.Books.Delete(books);
+            _unityOfWork.Complete();
+            return Ok(Book);
         }
     }
 }

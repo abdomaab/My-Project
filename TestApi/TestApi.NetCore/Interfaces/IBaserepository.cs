@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestApi.EF;
 
 namespace TestApi.NetCore.Interfaces
 {
@@ -13,6 +14,8 @@ namespace TestApi.NetCore.Interfaces
         T AddOne(T entity);
         T Update(int id, T entity);
         T Delete(T entity);
-       
+        Task<List<ApplicationUser>> GetAllUsersAsync();
+
+
     }
 }

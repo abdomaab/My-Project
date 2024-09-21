@@ -14,5 +14,10 @@ namespace TestApi.EF
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Book> Books { get; set; }
-        }
+        public DbSet<User> users { get; set; }
+        public DbSet<ApplicationUser> applications { get; set; }
+     
+    }
+    
+       
 }

@@ -14,15 +14,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddTransient(typeof(IBaserepository<>), typeof(Baserepository<>));
-
+//builder.Services.AddTransient(typeof(IBaserepository<>), typeof(Baserepository<>));
+builder.Services.AddTransient<IUnityOfWork, UnityOfWork>();
 
 var configuration = builder.Configuration;
 builder.Services.Configure<JWT>(configuration.GetSection("JWT"));
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
 builder.Services.AddScoped<IAuthService, AuthService>();
+    //.AddScoped<IUserInformations, UserInformations>();
 
 builder.Services.AddAuthentication(options =>
 {

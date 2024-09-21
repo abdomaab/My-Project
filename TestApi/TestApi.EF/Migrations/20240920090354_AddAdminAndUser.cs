@@ -28,6 +28,5 @@ namespace TestApi.EF.Migrations
         keyColumn: "Name",
         keyValues: new object[] { "Admin", "User" });
         }
-
     }
 }

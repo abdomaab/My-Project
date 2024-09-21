@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestApi.EF;
+using TestApi.EF.Models;
+using TestApi.NetCore.Dto;
 using TestApi.NetCore.Models;
 
 namespace TestApi.NetCore.Services
@@ -13,5 +16,7 @@ namespace TestApi.NetCore.Services
         Task<AuthModel> RegisterAsync(Models.RegisterModel model);
         Task<AuthModel> GetTokenAsync(TokenRequestModel model);
         Task<string> AddRoleAsync(AddRoleModel model);
+        
+    
     }
 }

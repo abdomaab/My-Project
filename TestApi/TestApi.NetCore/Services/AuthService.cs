@@ -13,6 +13,10 @@ using TestApi.NetCore.JWT;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using TestApi.EF.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
+using TestApi.NetCore.Dto;
 
 namespace TestApi.NetCore.Services
 {
@@ -25,6 +29,7 @@ namespace TestApi.NetCore.Services
             public string Audeince { get; set; }
             public double DurationInDays { get; set; }
         }
+      
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly JWT _jwt;
@@ -33,6 +38,7 @@ namespace TestApi.NetCore.Services
             _userManager = userManager;
             _roleManager = roleManager;
             _jwt = jwt.Value;
+           
         }
         public async Task<string> AddRoleAsync(AddRoleModel model)
         {
@@ -75,9 +81,6 @@ namespace TestApi.NetCore.Services
         }
 
 
-
-
-
         private async Task<JwtSecurityToken> CreateJwtToken(ApplicationUser user)
         {
             var userClaims = await _userManager.GetClaimsAsync(user);
@@ -105,7 +108,6 @@ namespace TestApi.NetCore.Services
                 audience: _jwt.Audeince,
                 claims: claims,
                 expires: DateTime.Now.AddDays(_jwt.DurationInDays),
-                //expires: DateTime.Now.AddDays(_jwt.DurationInDays),
                 signingCredentials: signingCredentials);
 
             return jwtSecurityToken;
@@ -143,6 +145,8 @@ namespace TestApi.NetCore.Services
 
             var jwtSecurityToken = await CreateJwtToken(user);
 
+           
+
             return new AuthModel
             {
                 Email = user.Email,
@@ -154,6 +158,7 @@ namespace TestApi.NetCore.Services
             };
         }
 
+       
        
     }
 }
