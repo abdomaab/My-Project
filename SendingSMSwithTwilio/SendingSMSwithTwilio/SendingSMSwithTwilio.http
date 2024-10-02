@@ -1,0 +1,6 @@
+@SendingSMSwithTwilio_HostAddress = http://localhost:5221
+
+GET {{SendingSMSwithTwilio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

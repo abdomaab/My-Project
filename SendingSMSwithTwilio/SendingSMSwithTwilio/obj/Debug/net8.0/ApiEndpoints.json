@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SendingSMSwithTwilio.Controllers.SMSController",
+    "Method": "Send",
+    "RelativePath": "api/SMS/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SendingSMSwithTwilio.Dto.SendSMSDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
