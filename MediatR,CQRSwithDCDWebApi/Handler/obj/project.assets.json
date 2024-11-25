@@ -3627,11 +3627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\Handler.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\Handler.csproj",
       "projectName": "Handler",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\Handler.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\Handler.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3648,8 +3648,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj"
+            "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj"
             }
           }
         }

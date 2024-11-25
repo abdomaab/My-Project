@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Infrastruction\\Infrastruction.csproj": {}
+    "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Infrastruction\\Infrastruction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj": {
+    "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj",
         "projectName": "Domins",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\Handler.csproj": {
+    "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\Handler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\Handler.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\Handler.csproj",
         "projectName": "Handler",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\Handler.csproj",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\Handler.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,8 +114,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj"
+              "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj"
               }
             }
           }
@@ -190,14 +190,14 @@
         }
       }
     },
-    "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Infrastruction\\Infrastruction.csproj": {
+    "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Infrastruction\\Infrastruction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Infrastruction\\Infrastruction.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Infrastruction\\Infrastruction.csproj",
         "projectName": "Infrastruction",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Infrastruction\\Infrastruction.csproj",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Infrastruction\\Infrastruction.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Infrastruction\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Infrastruction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,8 +214,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\Handler.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Handler\\Handler.csproj"
+              "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\Handler.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Handler\\Handler.csproj"
               }
             }
           }

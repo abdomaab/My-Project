@@ -4219,11 +4219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj",
       "projectName": "Domins",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\Domins.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\Domins.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\CQRSWebApi\\Domins\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\MediatR,CQRSwithDCDWebApi\\Domins\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
